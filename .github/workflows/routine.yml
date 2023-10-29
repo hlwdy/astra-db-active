@@ -25,7 +25,7 @@ jobs:
           python-version: '3.8'
 
       - name: 'Install dependencies'
-        run: python -m pip install astrapy
+        run: python -m pip install astrapy==0.3.3
 
       - name: Run
         env:
